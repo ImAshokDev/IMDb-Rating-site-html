@@ -119,13 +119,13 @@ body {
 
 .movies-section {
     width: 100%;
-    height: 950px;
+    height: 930px;
     background-color: rgb(236, 234, 234);
 }
 
 .movies-section .movie-first {
     width: 15%;
-    height: 950px;
+    height: 930px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
@@ -133,7 +133,7 @@ body {
 .movies-section .movie-middile {
     margin: 0;
     width: 70%;
-    height: 950px;
+    height: 930px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
@@ -454,9 +454,24 @@ body {
     opacity: 0.6;
 }
 
+.movie-middile div {
+    margin: 15px 0 0 0;
+    height: 50px;
+}
+
+.movie-middile div h2 {
+    margin: 0 46%;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
 .movies-section .movie-last {
     width: 15%;
-    height: 950px;
+    height: 930px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
