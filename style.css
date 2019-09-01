@@ -119,13 +119,13 @@ body {
 
 .movies-section {
     width: 100%;
-    height: 1200px;
-    background-color: rosybrown;
+    height: 950px;
+    background-color: rgb(236, 234, 234);
 }
 
 .movies-section .movie-first {
     width: 15%;
-    height: 1200px;
+    height: 950px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
@@ -133,9 +133,9 @@ body {
 .movies-section .movie-middile {
     margin: 0;
     width: 70%;
-    height: 1200px;
+    height: 950px;
     float: left;
-    background-color: rosybrown;
+    background-color: rgb(236, 234, 234);
 }
 
 .movie-middile h4 {
@@ -163,19 +163,300 @@ body {
 
 .movie-middile .image1 {
     width: 100%;
-    height: 500px;
+    height: 370px;
+    background-color: rgb(236, 234, 234);
+}
+
+.image1 .img1 {
+    margin: 0;
+    width: 18%;
+    height: 370px;
+    float: left;
     background-color: white;
 }
 
+.image1 .img1 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image1 .img1 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image1 .img1 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image1 .img2 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image1 .img2 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image1 .img2 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image1 .img2 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image1 .img3 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image1 .img3 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image1 .img3 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image1 .img3 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image1 .img4 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image1 .img4 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image1 .img4 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image1 .img4 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image1 .img5 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image1 .img5 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image1 .img5 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image1 .img5 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
 .movie-middile .image2 {
+    margin: 15px 0 0 0;
     width: 100%;
-    height: 500px;
-    background-color: rgb(240, 188, 105);
+    height: 370px;
+    background-color: rgb(236, 234, 234);
+}
+
+.image2 .img1 {
+    margin: 0;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image2 .img1 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image2 .img1 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image2 .img1 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image2 .img2 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image2 .img2 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image2 .img2 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image2 .img2 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image2 .img3 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image2 .img3 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image2 .img3 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image2 .img3 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image2 .img4 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image2 .img4 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image2 .img4 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image2 .img4 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+.image2 .img5 {
+    margin: 0 0 0 2%;
+    width: 18%;
+    height: 370px;
+    float: left;
+    background-color: white;
+}
+
+.image2 .img5 img {
+    margin: 20px 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.image2 .img5 h3 {
+    margin: 0 10%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.image2 .img5 p {
+    margin: 5px 10%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
 }
 
 .movies-section .movie-last {
     width: 15%;
-    height: 1200px;
+    height: 950px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
