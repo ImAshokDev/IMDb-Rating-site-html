@@ -548,6 +548,7 @@ body {
     height: 270px;
     float: left;
     background-color: rgb(56, 55, 55);
+    color: white;
 }
 
 .sliding-img .image div img {
@@ -562,7 +563,6 @@ body {
     font-family: 'Heebo', sans-serif;
     font-size: 11px;
     text-align: center;
-    color: white;
 }
 
 .sliding-img .image div P {
@@ -577,10 +577,6 @@ body {
     border-radius: 4px;
     color: black;
     background-color: white;
-}
-
-.sliding-img .image div h4:hover {
-    color: black;
 }
 
 .sliding-img .i2 {
@@ -625,7 +621,7 @@ body {
 .picks-section {
     margin: 0;
     width: 100%;
-    height: 600px;
+    height: 570px;
     background-color: rgb(236, 234, 234);
 }
 
@@ -633,26 +629,82 @@ body {
     margin: 0;
     float: left;
     width: 15%;
-    height: 600px;
+    height: 570px;
 }
 
 .picks-section .picks-middile {
     margin: 60px 0;
     width: 70%;
     float: left;
-    height: 480px;
-    background-color: rgb(196, 140, 71);
+    height: 450px;
+    background-color: white;
+}
+
+.picks-middile .picks-middile-first {
+    width: 100%;
+    height: 40px;
+}
+
+.picks-middile-first h6 {
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: normal;
+}
+
+.picks-middile-first h6 span {
+    font-weight: bold;
+}
+
+.picks-middile-image {
+    margin: 0 3%;
+    width: 94%;
+    height: 260px;
+}
+
+.picks-middile-image img {
+    margin: 15px 2%;
+    width: 12.23%;
+    height: 200px;
+}
+
+.picks-middile-last {
+    margin: 0 3%;
+    width: 94%;
+    height: 130px;
+}
+
+.picks-middile-last p {
+    margin: 0 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: black;
+    opacity: 0.4;
+}
+
+.picks-middile-last h5 {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .picks-section .picks-last {
     margin: 0;
     width: 15%;
     float: left;
-    height: 600px;
+    height: 570px;
 }
 
 .footer-section {
+    text-align: center;
     width: 100%;
-    height: 100px;
-    background-color: silver;
+    height: 120px;
+    background-color: white;
 }
