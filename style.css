@@ -1,6 +1,7 @@
 body {
     margin: 60px 60px;
     padding: 0;
+    height: auto;
     background-color: rgba(105, 102, 102, 0.863);
 }
 
@@ -169,7 +170,7 @@ body {
 
 .image1 .img1 {
     margin: 0;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -197,7 +198,7 @@ body {
 
 .image1 .img2 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -225,7 +226,7 @@ body {
 
 .image1 .img3 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -253,7 +254,7 @@ body {
 
 .image1 .img4 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -281,7 +282,7 @@ body {
 
 .image1 .img5 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -316,7 +317,7 @@ body {
 
 .image2 .img1 {
     margin: 0;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -344,7 +345,7 @@ body {
 
 .image2 .img2 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -372,7 +373,7 @@ body {
 
 .image2 .img3 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -400,7 +401,7 @@ body {
 
 .image2 .img4 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -428,7 +429,7 @@ body {
 
 .image2 .img5 {
     margin: 0 0 0 2%;
-    width: 18%;
+    width: 18.4%;
     height: 370px;
     float: left;
     background-color: white;
@@ -456,6 +457,7 @@ body {
 
 .movie-middile div {
     margin: 15px 0 0 0;
+    width: 100%;
     height: 50px;
 }
 
@@ -466,7 +468,7 @@ body {
     font-size: 12px;
     text-transform: uppercase;
     color: black;
-    border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 
 .movies-section .movie-last {
@@ -478,14 +480,175 @@ body {
 
 .slider-section {
     width: 100%;
-    height: 400px;
-    background-color: lightcoral;
+    height: 420px;
+    background-color: rgb(206, 82, 82);
+}
+
+.sliding-first {
+    width: 15%;
+    height: 420px;
+    float: left;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-middile {
+    width: 70%;
+    height: 420px;
+    float: left;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-head {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-head h2 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.sliding-img {
+    width: 100%;
+    height: 290px;
+}
+
+.sliding-img .i1 {
+    margin: 0;
+    float: left;
+    width: 7%;
+    height: 290px;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-img .i1 i {
+    padding-top: 80px;
+    font-size: 70px;
+    color: white;
+}
+
+.sliding-img .image {
+    margin: 0;
+    float: left;
+    width: 86%;
+    height: 290px;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-img .image div {
+    margin: 0;
+    padding: 7px 1%;
+    width: 12.28%;
+    height: 270px;
+    float: left;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-img .image div img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.sliding-img .image div h4 {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.sliding-img .image div P {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(56, 55, 55);
+    opacity: 0.8;
+}
+
+.sliding-img .image div:hover {
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+}
+
+.sliding-img .image div h4:hover {
+    color: black;
+}
+
+.sliding-img .i2 {
+    margin: 0;
+    float: left;
+    width: 7%;
+    height: 290px;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-img .i2 i {
+    padding-top: 80px;
+    font-size: 70px;
+    float: right;
+    color: white;
+}
+
+.sliding-buttom {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-buttom h3 {
+    margin: 0;
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+}
+
+.sliding-last {
+    width: 15%;
+    height: 420px;
+    float: left;
+    background-color: rgb(56, 55, 55);
 }
 
 .picks-section {
+    margin: 0;
     width: 100%;
-    height: 400px;
-    background-color: antiquewhite;
+    height: 600px;
+    background-color: rgb(236, 234, 234);
+}
+
+.picks-section .picks-first {
+    margin: 0;
+    float: left;
+    width: 15%;
+    height: 600px;
+}
+
+.picks-section .picks-middile {
+    margin: 60px 0;
+    width: 70%;
+    float: left;
+    height: 480px;
+    background-color: rgb(196, 140, 71);
+}
+
+.picks-section .picks-last {
+    margin: 0;
+    width: 15%;
+    float: left;
+    height: 600px;
 }
 
 .footer-section {
