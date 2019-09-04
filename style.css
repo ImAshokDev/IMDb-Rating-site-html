@@ -1,8 +1,8 @@
 body {
-    margin: 60px 60px;
+    margin:0;
     padding: 0;
     height: auto;
-    background-color: rgba(105, 102, 102, 0.863);
+    
 }
 
 .header-section {
@@ -115,7 +115,7 @@ body {
     width: 15%;
     height: 500px;
     float: left;
-    background-image: url(./01.jpg);
+    background-image: url(./rating-section-image/01.jpg);
     background-repeat: no-repeat;
     background-position: left;
     opacity: 0.5;
@@ -125,7 +125,7 @@ body {
     width: 70%;
     height: 500px;
     float: left;
-    background-image: url(./03.png);
+    background-image: url(./rating-section-image/03.png);
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.6;
@@ -135,7 +135,7 @@ body {
     width: 15%;
     height: 500px;
     float: left;
-    background-image: url(./02.jpg);
+    background-image: url(./rating-section-image/02.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.5;
