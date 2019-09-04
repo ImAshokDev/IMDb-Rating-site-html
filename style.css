@@ -70,6 +70,33 @@ body {
     float: left;
 }
 
+.search-box button {
+    margin: 30px 0 0 0;
+    width: 9%;
+    height: 27px;
+    float: right;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(192, 178, 178);
+    color: white;
+}
+
+.search-box input {
+    margin: 30px 0 0 0;
+    width: 75%;
+    float: right;
+    height: 27px;
+    background-color: rgb(238, 231, 231);
+    border: none;
+    border-radius: 2px;
+}
+
+.search-box input::placeholder {
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
 .profile-block {
     margin: 0;
     width: 15%;
@@ -120,13 +147,13 @@ body {
 
 .movies-section {
     width: 100%;
-    height: 930px;
+    height: 900px;
     background-color: rgb(236, 234, 234);
 }
 
 .movies-section .movie-first {
     width: 15%;
-    height: 930px;
+    height: 900px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
@@ -134,12 +161,12 @@ body {
 .movies-section .movie-middile {
     margin: 0;
     width: 70%;
-    height: 930px;
+    height: 900px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
 
-.movie-middile ul li span {
+.movie-middile-head ul li span {
     margin: 0;
     padding: 10px 0 0 0;
     width: 100%;
@@ -150,19 +177,19 @@ body {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    list-style-type: ;
+    list-style: none !important;
 }
 
 .movie-middile .image1 {
     width: 100%;
-    height: 370px;
+    height: 360px;
     background-color: rgb(236, 234, 234);
 }
 
 .image1 .img1 {
     margin: 0;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -190,7 +217,7 @@ body {
 .image1 .img2 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -218,7 +245,7 @@ body {
 .image1 .img3 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -246,7 +273,7 @@ body {
 .image1 .img4 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -274,7 +301,7 @@ body {
 .image1 .img5 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -300,16 +327,16 @@ body {
 }
 
 .movie-middile .image2 {
-    margin: 15px 0 0 0;
+    margin: 30px 0 0 0;
     width: 100%;
-    height: 370px;
+    height: 360px;
     background-color: rgb(236, 234, 234);
 }
 
 .image2 .img1 {
     margin: 0;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -337,7 +364,7 @@ body {
 .image2 .img2 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -365,7 +392,7 @@ body {
 .image2 .img3 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -393,7 +420,7 @@ body {
 .image2 .img4 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -421,7 +448,7 @@ body {
 .image2 .img5 {
     margin: 0 0 0 2%;
     width: 18.4%;
-    height: 370px;
+    height: 360px;
     float: left;
     background-color: white;
 }
@@ -446,14 +473,14 @@ body {
     opacity: 0.6;
 }
 
-.movie-middile div {
-    margin: 15px 0 0 0;
+.movie-middile-bottom {
     width: 100%;
     height: 50px;
 }
 
 .movie-middile div h2 {
     margin: 0 46%;
+    padding-top: 20px;
     text-align: center;
     font-family: 'Heebo', sans-serif;
     font-size: 12px;
@@ -464,7 +491,7 @@ body {
 
 .movies-section .movie-last {
     width: 15%;
-    height: 930px;
+    height: 900px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
