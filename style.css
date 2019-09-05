@@ -1,8 +1,7 @@
 body {
-    margin:0;
+    margin: 0;
     padding: 0;
     height: auto;
-    
 }
 
 .header-section {
@@ -147,13 +146,13 @@ body {
 
 .movies-section {
     width: 100%;
-    height: 900px;
+    height: 950px;
     background-color: rgb(236, 234, 234);
 }
 
 .movies-section .movie-first {
     width: 15%;
-    height: 900px;
+    height: 950px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
@@ -161,7 +160,7 @@ body {
 .movies-section .movie-middile {
     margin: 0;
     width: 70%;
-    height: 900px;
+    height: 950px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
@@ -180,7 +179,45 @@ body {
     list-style: none !important;
 }
 
-.movie-middile .image1 {
+.container {
+    display: grid;
+    height: 800;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    background-color: rgb(236, 234, 234);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+}
+
+.container .image {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+}
+
+.container .image img {
+    margin: 7%;
+    height: 280px;
+    width: 86%;
+}
+
+.container .image h3 {
+    margin: 5px 7%;
+    font-size: 13px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+}
+
+.container .image p {
+    margin: 5px 7%;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    opacity: 0.6;
+}
+
+
+/* .movie-middile .image1 {
     width: 100%;
     height: 360px;
     background-color: rgb(236, 234, 234);
@@ -471,7 +508,7 @@ body {
     font-size: 14px;
     font-family: 'Heebo', sans-serif;
     opacity: 0.6;
-}
+} */
 
 .movie-middile-bottom {
     width: 100%;
@@ -491,7 +528,7 @@ body {
 
 .movies-section .movie-last {
     width: 15%;
-    height: 900px;
+    height: 950px;
     float: left;
     background-color: rgb(236, 234, 234);
 }
@@ -534,14 +571,15 @@ body {
 
 .sliding-img {
     width: 100%;
-    height: 290px;
+    height: 280px;
+    background-color: antiquewhite;
 }
 
 .sliding-img .i1 {
     margin: 0;
     float: left;
     width: 7%;
-    height: 290px;
+    height: 280px;
     background-color: rgb(56, 55, 55);
 }
 
@@ -551,39 +589,39 @@ body {
     color: white;
 }
 
-.sliding-img .image {
-    margin: 0;
+.sliding-container {
+    display: grid;
     float: left;
+    height: 280px;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 86%;
-    height: 290px;
-    background-color: rgb(56, 55, 55);
 }
 
-.sliding-img .image div {
+.sliding-container .image {
     margin: 0;
-    padding: 7px 1%;
-    width: 12.28%;
-    height: 270px;
-    float: left;
+    width: 100%;
+    height: 280px;
     background-color: rgb(56, 55, 55);
     color: white;
 }
 
-.sliding-img .image div img {
-    width: 100%;
+.sliding-container .image .img img {
+    margin: 5%;
+    width: 90%;
     height: 200px;
     margin-bottom: 20px;
     border-radius: 7px;
 }
 
-.sliding-img .image div h4 {
+.sliding-container .image h4 {
     margin: 0;
     font-family: 'Heebo', sans-serif;
     font-size: 11px;
     text-align: center;
 }
 
-.sliding-img .image div P {
+.sliding-container .image p {
     margin: 0;
     text-align: center;
     font-size: 12px;
@@ -591,17 +629,63 @@ body {
     opacity: 0.8;
 }
 
-.sliding-img .image div:hover {
-    border-radius: 4px;
+.sliding-container .image:hover {
+    border-radius: 10px;
     color: black;
     background-color: white;
 }
+
+
+/* .sliding-container {
+    width: 86%;
+    height: 290px;
+    grid-column: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr;
+    background-color: rgb(56, 55, 55);
+}
+
+.sliding-container .image {
+    margin: 0;
+    padding: 7px 1%;
+    width: 10%;
+    height: 270px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+.sliding-img .sliding-container .image img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.sliding-img .sliding-container .image h4 {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+.sliding-img .sliding-container .image P {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(56, 55, 55);
+    opacity: 0.8;
+}
+
+.sliding-img .sliding-container .image:hover {
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+} */
 
 .sliding-img .i2 {
     margin: 0;
     float: left;
     width: 7%;
-    height: 290px;
+    height: 280px;
     background-color: rgb(56, 55, 55);
 }
 
@@ -614,7 +698,7 @@ body {
 
 .sliding-buttom {
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: rgb(56, 55, 55);
 }
 
