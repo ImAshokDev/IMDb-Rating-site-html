@@ -106,19 +106,18 @@ body {
 
 .ratings-section {
     margin: 0;
-    width: 100%;
-    height: 500px;
+    height: 450px;
     border-bottom: 3px solid orange;
 }
 
 .ratings-container {
     display: grid;
-    grid-template-columns: 15% 70% 15%;
-    height: 500%;
+    grid-template-columns: 1.5fr 7fr 1.5fr;
+    height: 450px;
 }
 
 .ratings-container .first-block {
-    height: 500px;
+    height: 450px;
     float: left;
     background-image: url(./rating-section-image/01.jpg);
     background-repeat: no-repeat;
@@ -127,16 +126,20 @@ body {
 }
 
 .ratings-container .middile-block {
-    height: 500px;
+    height: 450px;
     float: left;
     background-image: url(./rating-section-image/03.png);
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.6;
+    display:grid;
+    grid-template-columns: 2.3fr 1fr;
+ 
 }
 
+
 .ratings-container .last-block {
-    height: 500px;
+    height: 450px;
     float: left;
     background-image: url(./rating-section-image/02.jpg);
     background-repeat: no-repeat;
