@@ -106,18 +106,18 @@ body {
 
 .ratings-section {
     margin: 0;
-    height: 450px;
+    height: 480px;
     border-bottom: 3px solid orange;
 }
 
 .ratings-container {
     display: grid;
     grid-template-columns: 1.5fr 7fr 1.5fr;
-    height: 450px;
+    height: 480px;
 }
 
 .ratings-container .first-block {
-    height: 450px;
+    height: 480px;
     float: left;
     background-image: url(./rating-section-image/01.jpg);
     background-repeat: no-repeat;
@@ -126,18 +126,91 @@ body {
 }
 
 .ratings-container .middile-block {
-    height: 450px;
+    height: 480px;
     float: left;
     background-image: url(./rating-section-image/03.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    opacity: 0.6;
     display:grid;
-    grid-template-columns: 2.3fr 1fr;
+    grid-template-columns: 3fr 1fr;
  
 }
-
-
+.middile-block-right img{
+    margin: 25px;
+    height: 430px;
+    
+  
+}
+.middile-block .middile-block-left{
+    margin: 50px 20px 50px 50px;
+    height:380px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr 1.3fr 1.5fr;
+background: burlywood;
+}
+.rate1 h2{
+    height: 40px;
+    margin:0 0 2px 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 28px;
+} 
+.rate1 h2 span{
+  vertical-align: text-bottom;
+  font-weight: normal;
+    color: orange;
+    letter-spacing:0;
+    font-size: 22px;
+}
+.rate1 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.rate1 ul li{
+    margin: 0;
+    padding: 2px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.rate1 ul li h6{
+    margin: 0;
+    padding: 2px;
+    float: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.rate1 ul li span{
+    margin: 0;
+    padding-left:30px;
+    float: left;
+    color: white;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.rate1 ul li i{
+    margin: 0;
+    padding:10px 6px;
+    float: left;
+    color: white;
+    font-size: 6px;
+}
+.rate3{
+    grid-column: 1 / span 2;
+    background: red;
+}
+.rate4{
+    grid-column: 1 / span 2;
+    background: rgb(141, 144, 136);
+}
 .ratings-container .last-block {
     height: 450px;
     float: left;
